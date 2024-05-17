@@ -110,8 +110,8 @@ export default function Homepage() {
                         </div>
                     </div>
                 </nav>
-                <div className='flex justify-end h-[80%] items-center'>
-                    <div className='w-[50%]'>
+                <div className='flex md:justify-end justify-start h-[80%] items-center'>
+                    <div className='md:w-[50%] w-full'>
                         <h1 className='text-7xl intro-font font-bold'>Welcome to <span className='text-[#E25435]'>{values['data'][0]['attributes']['Name']} Restaurant</span> </h1>
                         <p className='mt-2 description-font text-lg'>{values['data'][0]['attributes']['Description'][0]['children'][0]['text']}</p>
                         <button
